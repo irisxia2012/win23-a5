@@ -7,4 +7,3 @@ $(objects): %.o:%.c
 clean:
 	rm -f calculator $(objects)
 .PHONY: clean
-.PHONY: all
